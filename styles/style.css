@@ -7,3 +7,135 @@
   font-variation-settings:
     "wdth" 100;
 }
+.header{
+    width: full;
+    height: 655px;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    gap: none;
+}
+.banner{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   .btn-primary{
+    background-color:  rgba(12, 13, 16, 1);
+    font-weight: bold;
+    color: white;
+    padding: 21px 24px;
+    border-radius: 8px;
+}
+.section-tittle{
+    font-size: 32px;
+    font-weight: bold ;
+    color: rgba(13, 19, 33, 1);
+    
+}
+.section-description{
+    font-size: 18px;
+    color: #0D1321;
+}
+.secondary-bg{
+    background-color: rgba(255, 255, 255, 1);
+}
+.about{
+    border-radius: 18px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+main{
+    max-width:1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 50px;
+}
+.part-one{
+    display: flex;
+    margin: 0 45px 230px;
+    padding:48px;
+    justify-content: space-between;
+}
+.part-one-content{
+    width: 580px;
+    
+}
+.part-one-tittle{
+    font-weight: bold;
+    font-size: 20px;
+    color: #0D1321
+}
+.part-one-description{
+    font-weight: regular;
+    font-size: 16px;
+    color: #2B2C2F;
+}
+.part-two{
+    display:flex ;
+    margin:0 45px 230px;
+    padding:48px;
+}
+.content-two{
+    justify-content: space-between;
+}
+.part-three{
+    display: flex;
+    margin: 0 45px 230px;
+    padding:10px;
+    justify-content: space-between;
+}
+.vedio-sec{
+    justify-content: center;
+    align-items: center;
+    
+}
+.vedio-tittle{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+.vedio-description{
+    font-weight: regular;
+    font-size: 16px;
+    color: #484B53;
+    text-align: center;
+}
+.vedio{
+    justify-content: center;
+    text-align: center;
+
+}
+.text-center{
+    text-align: center;
+
+}
+.skills-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 24px;
+}
+.skill{
+    padding: 40px;
+    box-shadow: 0px 6px 50px 0px white ;
+    border-radius: 5px;
+}
+.pictures-container{
+    gap: 24px;
+}
+.pic{
+    box-shadow:0px 4px 50px 0px white ;
+    padding:40px
+}
+
+
+
+    
+
+
