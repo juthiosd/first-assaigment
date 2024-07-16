@@ -23,7 +23,11 @@
     align-items: center;
     text-align: center;
    }
-   .btn-primary{
+.banner-tittle{
+    font-weight: bold;
+    font-size: 48px;
+ }
+.btn-primary{
     background-color:  rgba(12, 13, 16, 1);
     font-weight: bold;
     color: white;
@@ -34,61 +38,55 @@
     font-size: 32px;
     font-weight: bold ;
     color: rgba(13, 19, 33, 1);
-    
-}
-.section-description{
-    font-size: 18px;
-    color: #0D1321;
-}
-.secondary-bg{
-    background-color: rgba(255, 255, 255, 1);
 }
 .about{
-    border-radius: 18px;
-    padding: 130px 150px;
+    border-radius: 16px;
+    padding: 48px ;
     text-align: center;
-    
+    justify-content: center;
 }
 main{
-    max-width:1140px;
+    max-width:1180px;
     margin: 0 auto;
 }
 main section{
     margin-top: 50px;
 }
-.part-one{
-    display: flex;
-    margin: 0 45px 230px;
-    padding:48px;
-    justify-content: space-between;
+.section-description{
+    font-size: 16px;
+    color: #757575;
 }
-.part-one-content{
-    width: 580px;
-    
-}
-.part-one-tittle{
+.similar-tittle{
+    color:#484B53;
     font-weight: bold;
     font-size: 20px;
-    color: #0D1321
+
 }
-.part-one-description{
-    font-weight: regular;
-    font-size: 16px;
-    color: #2B2C2F;
+.design{
+    justify-content: center;
+    padding:48px;
+    gap: 32px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px #979595;
+    margin: 30px;
+}
+.part-one{
+    display: flex;
+    text-align: start;
 }
 .part-two{
     display:flex ;
-    margin:0 45px 230px;
-    padding:48px;
+    text-align: left;
 }
-.content-two{
-    justify-content: space-between;
-}
+
 .part-three{
     display: flex;
-    margin: 0 45px 230px;
-    padding:10px;
-    justify-content: space-between;
+    text-align: start;
+}
+.common-btn{
+    margin: 12px 20px;
+    color:#757575;
+    text-align: start;
 }
 .vedio-sec{
     justify-content: center;
@@ -103,12 +101,15 @@ main section{
 .vedio-description{
     font-weight: regular;
     font-size: 16px;
-    color: #484B53;
+    color: #757575;
     text-align: center;
 }
 .vedio{
     justify-content: center;
     text-align: center;
+    margin-top: 48px;
+    padding:20px;
+    border-radius: 20px;
 
 }
 .text-center{
@@ -117,22 +118,93 @@ main section{
 }
 .skills-container{
     display: flex;
-    text-align: center;
+    text-align: start;
     justify-content: center;
     gap: 24px;
 }
-.skill{
+.skill-description{
+    color:#757575;
+    font-size: 16px;
+}
+.skill-design{
+    padding:40px;
+    border-radius: 15px;
+}
+.skill-one{
+    background-color: #FFEDED;
+}
+.skill-two{
+    background-color:rgba(0, 76, 232, 0.05) ;
+}
+.skill-three{
+    background-color: rgba(255, 223, 0, 0.05)
+}
+.lear{
+    font-size: 15px;
+    color:rgba(13, 19, 33, 1);
+}
+.sim-style{
+    display:flex;
+    text-align: left;
     padding: 40px;
-    box-shadow: 0px 6px 50px 0px white ;
-    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px #979595;
+    column-gap: 24px;
+    border-radius: 16px;
+    margin: 30px;
 }
-.pictures-container{
-    gap: 24px;
+.handshake{
+    background-image: url(../assets/handshake.jpg);
+    justify-content: center;
+    text-align: center;
+    width:1100px;
+    min-height: 50px;
+    padding:64px 48px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: center;
+    box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 1);
 }
-.pic{
-    box-shadow:0px 4px 50px 0px white ;
-    padding:40px
+.handshake-tittle{
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 30px;
 }
+.handshake-description{
+    color: rgba(255, 255, 255, 1) ;
+    font-size: 16px;
+    font-weight:regular;
+}
+#line{
+    padding:10px;
+    border-radius: 10px;
+    text-align: start;
+    margin-right:10px ;
+    border: none;
+}
+.l-btn{
+    padding:8px;
+    border-radius: 8px;
+    border: none;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px #ccc8c8;
+}
+.footer-tittle{
+    font-weight:bold ;
+    font-size: 20px;
+    color: rgba(13, 19, 33, 1);
+}
+
+    
+
+
+
+
+
 
 
 
